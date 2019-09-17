@@ -28,7 +28,11 @@ public class Exe7 {
         a = sc.nextDouble();
         System.out.println("Insira o segundo valor: ");
         b = sc.nextDouble();
+
+        hipotenusa = Math.sqrt(Math.pow(a,2) + Math.pow(b, 2));
         
+        System.out.println("A hipotenusa é : " + hipotenusa);
+
         
     }
 }
